@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        *{
+    margin: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(-45deg, #000, #222222);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding-left: 2rem;
+    margin-top: 0;
+    margin-left: 0px;
+}
+
+#h1{
+    color: #fff;
+    font-size: 2.2rem;
+    padding-top: 2rem;
+}
+
+p{
+    margin-top: 1rem;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #d3d3d3;
+    margin-left: 10px;
+    transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+}
+
+a:hover{
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    color: mediumvioletred;
+}
+
+@media(max-width:720px){
+    nav{
+        margin-top: 30vh;
+        margin-left:4vw;
+    }
+}
+    </style>
+    <title>Wrong</title>
+</head>
+<body>
+    <nav>
+        <p id="h1">You have entered wrong password or username  </p>
+        <p>Do not have an account ? <a href="/register">Click and Register Now!</a> </p>
+    </nav>
+</body>
+</html>
